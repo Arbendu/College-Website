@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="clubs.html">CLUBS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- ------------about us content----------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>OUR INSTITUTE</h1>
+                <p>Kalyani Government Engineering College was established by Govt. of West Bengal in the year 1995. KGEC
+                    is an autonomous institute affiliated to Maulana Abul Kalam University of Technology (MAKAUT)
+                    formally West Bengal University of Technology (WBUT). KGEC is among the top engineering colleges of
+                    West Bengal.It is one of the finest engineering institutes in the country, it is a community of
+                    learners, striving to educate the mind, nurture the spirit, and foster the development of whole
+                    individual.
+
+                    KGEC has 10 academic departments, offering B.Tech, M.Tech and MCA programs. KGEC has about 1700
+                    students, 120 teachers, 100 technical and supporting staff members. We have more than 50 labs and 10
+                    research facilities in the college.</p>
+                    <h1>DEPARTMENTS</h1>
+                    <P> 1.Department of Computer Science and Engineering <br>
+                        2.Department of Electronics and Communication Engineering <br>
+                        3.Department of Information Technology <br>
+                        4.Department of Mechanical Engineering <br>
+                        5.Department of Computer Application <br>
+                        6.Department of Physics <br>
+                        7.Department of Chemistry <br>
+                        8.Department of Mathematics <br>
+                        9.Department of Humanities</P>
+                        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" >
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------Footer--------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>In KGEC undergraduate and graduate students pursue their academic goals in an environment designed to
+            inspire, support, and empower them.<br> </p>
+        <div class="icons">
+            <i class="fa fa-facebook" id="facebook"></i>
+            <i class="fa fa-twitter" id="twitter"></i>
+            <i class="fa fa-instagram" id="instagram"></i>
+            <i class="fa fa-linkedin" id="linkdin"></i>
+            <i class="fa fa-whatsapp" id="whatsapp"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -------js for toggle Menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
